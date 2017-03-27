@@ -1,0 +1,230 @@
+REPL 0
+log_L:-42653.8613955914261169
+global kappa_inverse=0.2041668558278246;
+ref_hyphy_tree.hsap.t=0.01493481859177746;
+ref_hyphy_tree.ptro.t=0.0171646946445779;
+ref_hyphy_tree.mmul.t=0.1706408070818839;
+global f0=0.8874716626883324;
+f0:<1;
+global f_aux=0.3629296492270727;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta2=15.45523644495487;
+zeta2:>1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1)+(site_class==3);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+((site_class==2)+(site_class==3))*zeta2;
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.01010074321262996,ptro:0.005701029636626535,mmul:0.05667612028851296);
+Tree ref_hyphy_tree=(hsap:0.005138143003662869,ptro:0.005905304785329236,mmul:0.05870689782130245);
+
+
+REPL 1
+log_L:-42653.8511686169440509
+global kappa_inverse=0.2040779079448028;
+ref_hyphy_tree.hsap.t=0.01493665635699217;
+ref_hyphy_tree.ptro.t=0.01716734893470656;
+ref_hyphy_tree.mmul.t=0.1706641290746825;
+global f0=0.7031685025847616;
+f0:<1;
+global f_aux=0.8304803528529544;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta2=22.21045008233415;
+zeta2:>1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1)+(site_class==3);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+((site_class==2)+(site_class==3))*zeta2;
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.01025445558787933,ptro:0.005701148555296348,mmul:0.05667628453383367);
+Tree ref_hyphy_tree=(hsap:0.005138110972587073,ptro:0.005905454462059365,mmul:0.05870733136436863);
+
+
+REPL 2
+log_L:-42653.8554944791540038
+global kappa_inverse=0.2041142371590463;
+ref_hyphy_tree.hsap.t=0.01493565424595418;
+ref_hyphy_tree.ptro.t=0.01716622806175003;
+ref_hyphy_tree.mmul.t=0.17065461554467;
+global f0=0.3873769947807814;
+f0:<1;
+global f_aux=0.9056405041833419;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta2=19.24732753686916;
+zeta2:>1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1)+(site_class==3);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+((site_class==2)+(site_class==3))*zeta2;
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.0101925018065268,ptro:0.005701087800367448,mmul:0.0566762216637433);
+Tree ref_hyphy_tree=(hsap:0.005138037553271507,ptro:0.005905380706920618,mmul:0.05870715864657516);
+
+
+REPL 3
+log_L:-42653.8614631270465907
+global kappa_inverse=0.204165123378509;
+ref_hyphy_tree.hsap.t=0.01493519053143241;
+ref_hyphy_tree.ptro.t=0.01716472405952102;
+ref_hyphy_tree.mmul.t=0.1706412659656773;
+global f0=0.6501878296837245;
+f0:<1;
+global f_aux=0.7942523777502944;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta2=15.43118230054829;
+zeta2:>1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1)+(site_class==3);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+((site_class==2)+(site_class==3))*zeta2;
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.01011278469345525,ptro:0.005701024554081962,mmul:0.05667612504789104);
+Tree ref_hyphy_tree=(hsap:0.005138258027756781,ptro:0.00590530003667821,mmul:0.05870690788104926);
+
+
+REPL 4
+log_L:-42653.8740717378968839
+global kappa_inverse=0.204157344800667;
+ref_hyphy_tree.hsap.t=0.01493323999181571;
+ref_hyphy_tree.ptro.t=0.0171675036667044;
+ref_hyphy_tree.mmul.t=0.1706793593856616;
+global f0=0;
+f0:<1;
+global f_aux=0.8598376648858439;
+f_aux:<1;
+global zeta0=0.9830685820399165;
+zeta0:<1;
+global zeta2=8.190476182972034;
+zeta2:>1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1)+(site_class==3);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+((site_class==2)+(site_class==3))*zeta2;
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.009958475049010259,ptro:0.005701881065223,mmul:0.05668811414864937);
+Tree ref_hyphy_tree=(hsap:0.005137528890297567,ptro:0.005906189555000873,mmul:0.05871934960543687);
+
+
+REPL 5
+log_L:-42653.8739820808696095
+global kappa_inverse=0.2042152597683663;
+ref_hyphy_tree.hsap.t=0.01493282612843017;
+ref_hyphy_tree.ptro.t=0.01716299497178087;
+ref_hyphy_tree.mmul.t=0.1706282328761116;
+global f0=0.7917754709836091;
+f0:<1;
+global f_aux=0.3292115366908888;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta2=8.209838914987982;
+zeta2:>1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1)+(site_class==3);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+((site_class==2)+(site_class==3))*zeta2;
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.009955085947558701,ptro:0.005700880038939806,mmul:0.05667606897760833);
+Tree ref_hyphy_tree=(hsap:0.005137818924601365,ptro:0.005905135411773782,mmul:0.05870670135729588);
+
+
+REPL 6
+log_L:-42653.8725034280432737
+global kappa_inverse=0.2042024399040326;
+ref_hyphy_tree.hsap.t=0.01493523368806297;
+ref_hyphy_tree.ptro.t=0.01716340890085639;
+ref_hyphy_tree.mmul.t=0.1706315424206511;
+global f0=0.08359552581135608;
+f0:<1;
+global f_aux=0.8624573215552107;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta2=9.014802743745374;
+zeta2:>1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1)+(site_class==3);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+((site_class==2)+(site_class==3))*zeta2;
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.009972334745342874,ptro:0.005700907633473998,mmul:0.05667607573276396);
+Tree ref_hyphy_tree=(hsap:0.005138551540708141,ptro:0.005905167812793556,mmul:0.05870674630955573);
+
+
+REPL 7
+log_L:-42653.8793640508229146
+global kappa_inverse=0.2042176617340977;
+ref_hyphy_tree.hsap.t=0.0149311061099574;
+ref_hyphy_tree.ptro.t=0.01716297691676416;
+ref_hyphy_tree.mmul.t=0.170616837350944;
+global f0=0;
+f0:<1;
+global f_aux=0.7722240583012789;
+f_aux:<1;
+global zeta0=0.3024011868090342;
+zeta0:<1;
+global zeta2=5.37322992460097;
+zeta2:>1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1)+(site_class==3);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+((site_class==2)+(site_class==3))*zeta2;
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.009899842291057816,ptro:0.005700894631785641,mmul:0.05667248851195351);
+Tree ref_hyphy_tree=(hsap:0.005137245063501776,ptro:0.005905149812165737,mmul:0.05870298549729637);
+
+
+REPL 8
+log_L:-42653.8626029491861118
+global kappa_inverse=0.2041078160009771;
+ref_hyphy_tree.hsap.t=0.01493364983104747;
+ref_hyphy_tree.ptro.t=0.01716924654779683;
+ref_hyphy_tree.mmul.t=0.1706873857328131;
+global f0=0.4850488946715273;
+f0:<1;
+global f_aux=0.8538766765392851;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta2=14.73888438307897;
+zeta2:>1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1)+(site_class==3);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+((site_class==2)+(site_class==3))*zeta2;
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.01008679296029968,ptro:0.005702035208578233,mmul:0.05668655758418033);
+Tree ref_hyphy_tree=(hsap:0.005137300065738426,ptro:0.005906363977766391,mmul:0.0587178839644987);
+
+
+REPL 9
+log_L:-42653.8799506742943777
+global kappa_inverse=0.2042370878884751;
+ref_hyphy_tree.hsap.t=0.01493393011446749;
+ref_hyphy_tree.ptro.t=0.0171622922582725;
+ref_hyphy_tree.mmul.t=0.1706225066909653;
+global f0=0.4808118657090229;
+f0:<1;
+global f_aux=0.5291258687426492;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta2=5.066714495814822;
+zeta2:>1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1)+(site_class==3);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+((site_class==2)+(site_class==3))*zeta2;
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.009892491056261254,ptro:0.005700833731366194,mmul:0.05667602712016845);
+Tree ref_hyphy_tree=(hsap:0.005138361754098349,ptro:0.005905080944977365,mmul:0.05870659337825003);
+
+

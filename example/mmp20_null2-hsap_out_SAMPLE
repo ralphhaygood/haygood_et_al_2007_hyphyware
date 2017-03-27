@@ -1,0 +1,210 @@
+REPL 0
+log_L:-42660.1259470169170527
+global kappa_inverse=0.2043791338866089;
+ref_hyphy_tree.hsap.t=0.01758335250349957;
+ref_hyphy_tree.ptro.t=0.0172865905709157;
+ref_hyphy_tree.mmul.t=0.1705544188153926;
+global f0=0.6542212936565153;
+f0:<1;
+global f_aux=0.9176754749290316;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+(site_class==2);
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.005841945638531869,ptro:0.005743348566250258,mmul:0.05666551034181994);
+Tree ref_hyphy_tree=(hsap:0.006051205218204589,ptro:0.005949076380449753,mmul:0.0586952794649454);
+
+
+REPL 1
+log_L:-42660.1259472959063714
+global kappa_inverse=0.2043779758090591;
+ref_hyphy_tree.hsap.t=0.01758382581136544;
+ref_hyphy_tree.ptro.t=0.01728718804580766;
+ref_hyphy_tree.mmul.t=0.1705544783408085;
+global f0=0.7402672760289447;
+f0:<1;
+global f_aux=0.5588318298545403;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+(site_class==2);
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.00584209272111099,ptro:0.005743537074031526,mmul:0.05666543146848575);
+Tree ref_hyphy_tree=(hsap:0.006051357922550077,ptro:0.005949271987896687,mmul:0.05869520119261816);
+
+
+REPL 2
+log_L:-42660.1259480526859988
+global kappa_inverse=0.2043977165232481;
+ref_hyphy_tree.hsap.t=0.01758302115775363;
+ref_hyphy_tree.ptro.t=0.01728524723890633;
+ref_hyphy_tree.mmul.t=0.170546333561328;
+global f0=0.3813453092069758;
+f0:<1;
+global f_aux=0.2365859922252207;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+(site_class==2);
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.005841998742977917,ptro:0.005743062681649775,mmul:0.05666440694950854);
+Tree ref_hyphy_tree=(hsap:0.006051254556977874,ptro:0.005948774683513166,mmul:0.05869408157333431);
+
+
+REPL 3
+log_L:-42660.1259498529325356
+global kappa_inverse=0.2043979927798192;
+ref_hyphy_tree.hsap.t=0.01758114917891594;
+ref_hyphy_tree.ptro.t=0.01728635374938885;
+ref_hyphy_tree.mmul.t=0.1705408952550561;
+global f0=0.4091521208212763;
+f0:<1;
+global f_aux=0.8396742870722617;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+(site_class==2);
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.005841379199566931,ptro:0.005743432707409749,mmul:0.05666262359078812);
+Tree ref_hyphy_tree=(hsap:0.006050612737758117,ptro:0.00594915788046878,mmul:0.05869223351886382);
+
+
+REPL 4
+log_L:-42660.1259515288984403
+global kappa_inverse=0.2043445574207959;
+ref_hyphy_tree.hsap.t=0.01758430465950028;
+ref_hyphy_tree.ptro.t=0.01728657511621228;
+ref_hyphy_tree.mmul.t=0.1705603544275397;
+global f0=0;
+f0:<1;
+global f_aux=1;
+f_aux:<1;
+global zeta0=0.6729332307698357;
+zeta0:<1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+(site_class==2);
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.005841958314801261,ptro:0.005743044902263588,mmul:0.05666453692754275);
+Tree ref_hyphy_tree=(hsap:0.006051228895466625,ptro:0.005948772207513085,mmul:0.05869437348353403);
+
+
+REPL 5
+log_L:-42660.1259465979092056
+global kappa_inverse=0.2043801514728283;
+ref_hyphy_tree.hsap.t=0.01758359878634647;
+ref_hyphy_tree.ptro.t=0.01728567265564523;
+ref_hyphy_tree.mmul.t=0.1705509618821608;
+global f0=0.05225001824011685;
+f0:<1;
+global f_aux=0.9148688602744069;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+(site_class==2);
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.005842036400964508,ptro:0.005743052380599654,mmul:0.05666444848074921);
+Tree ref_hyphy_tree=(hsap:0.006051298921380616,ptro:0.005948769280249166,mmul:0.0586941765572659);
+
+
+REPL 6
+log_L:-42660.1259491251403233
+global kappa_inverse=0.2043543085329205;
+ref_hyphy_tree.hsap.t=0.01758436751274406;
+ref_hyphy_tree.ptro.t=0.01728630655266039;
+ref_hyphy_tree.mmul.t=0.1705577783293688;
+global f0=0;
+f0:<1;
+global f_aux=1;
+f_aux:<1;
+global zeta0=0.8964647801263605;
+zeta0:<1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+(site_class==2);
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.005842064836581896,ptro:0.005743039867227686,mmul:0.05666451174097673);
+Tree ref_hyphy_tree=(hsap:0.006051336258503715,ptro:0.005948764067966207,mmul:0.05869431854323705);
+
+
+REPL 7
+log_L:-42660.1259492508979747
+global kappa_inverse=0.2043537437052931;
+ref_hyphy_tree.hsap.t=0.01758450484774016;
+ref_hyphy_tree.ptro.t=0.01728631068143012;
+ref_hyphy_tree.mmul.t=0.1705579271901942;
+global f0=0.9123761529835664;
+f0:<1;
+global f_aux=0.1706202765732978;
+f_aux:<1;
+global zeta0=1;
+zeta0:<1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+(site_class==2);
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.005842105502763624,ptro:0.005743036362348463,mmul:0.056664513081575);
+Tree ref_hyphy_tree=(hsap:0.006051378553707206,ptro:0.005948760606914066,mmul:0.05869432160304112);
+
+
+REPL 8
+log_L:-42660.1259476488776272
+global kappa_inverse=0.2043949039790648;
+ref_hyphy_tree.hsap.t=0.01758307799366369;
+ref_hyphy_tree.ptro.t=0.01728531863267999;
+ref_hyphy_tree.mmul.t=0.1705470752882529;
+global f0=0;
+f0:<1;
+global f_aux=1;
+f_aux:<1;
+global zeta0=0.8934583195712179;
+zeta0:<1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+(site_class==2);
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.005841992927141715,ptro:0.005743062120972067,mmul:0.05666441381524454);
+Tree ref_hyphy_tree=(hsap:0.006051249390654968,ptro:0.005948774946057516,mmul:0.05869409700553745);
+
+
+REPL 9
+log_L:-42660.1259520937383058
+global kappa_inverse=0.2043838347294943;
+ref_hyphy_tree.hsap.t=0.0175815846114636;
+ref_hyphy_tree.ptro.t=0.01728319766805663;
+ref_hyphy_tree.mmul.t=0.1705383093238755;
+global f0=0;
+f0:<1;
+global f_aux=1;
+f_aux:<1;
+global zeta0=0.9642458924249199;
+zeta0:<1;
+global zeta_bgrnd:=((site_class==0)+(site_class==2))*zeta0+(site_class==1);
+global zeta_fgrnd:=(site_class==0)*zeta0+(site_class==1)+(site_class==2);
+quer_hyphy_tree.hsap.t:=zeta_fgrnd*ref_hyphy_tree.hsap.t;
+quer_hyphy_tree.ptro.t:=zeta_bgrnd*ref_hyphy_tree.ptro.t;
+quer_hyphy_tree.mmul.t:=zeta_bgrnd*ref_hyphy_tree.mmul.t;
+Tree quer_hyphy_tree=(hsap:0.005841399547977747,ptro:0.005742261876666625,mmul:0.05666055847706933);
+Tree ref_hyphy_tree=(hsap:0.006050638132899815,ptro:0.005947949356089534,mmul:0.05869013631697935);
+
+
