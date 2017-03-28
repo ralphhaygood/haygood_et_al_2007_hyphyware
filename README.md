@@ -13,7 +13,7 @@ Batch Language files. Rather than sending the files to each requester by email, 
 offering this repository as a more convenient way to obtain the HyPhy-ware.
 
 What follows assumes some knowledge of HyPhy. For an introduction to HyPhy, see
-http://www.hyphy.org/w/index.php/Main\_Page.
+http://www.hyphy.org/w/index.php/Main_Page.
 
 
 Overview
@@ -35,15 +35,15 @@ which aren't discussed in the article.) So there are two HyPhy Batch Language fi
 hyphyware/alt2-fgrnd\_spec.bf.
 
 These files do the real work, but they expect certain variables to have been initialized. For example, `tree` should
-contain a Newick-format representation of the phylogeny (e.g., `"((hsap, ptro), mmul)"`). So HyPhy should be invoked on
-a short HyPhy Batch Language file that first initializes the variables and then `#include`s either null2-fgrnd\_spec.bf
-or alt2-fgrnd\_spec.bf.
+contain a Newick-format representation of the phylogeny (e.g., `"((hsap, ptro), mmul)"`). So HyPhy should be invoked
+with a short HyPhy Batch Language file that first initializes the variables and then `#include`s either
+null2-fgrnd\_spec.bf or alt2-fgrnd\_spec.bf.
 
 
 Example
 -------
 
-As an example, the repository contains files for MMP20, a gene involved in tooth enamel formation that scores high not
+As an example, the repository contains files for *MMP20*, a gene involved in tooth enamel formation that scores high not
 only in our study but also in Clark et al.'s 2003 study of positive selection on coding sequences.
 
 There are two short HyPhy Batch Language files, example/mmp20\_null2-hsap.bf for the null model and
@@ -54,7 +54,7 @@ or ambiguous bases.
 
 Assuming you have a shell (command, terminal, etc.) window open, HyPhy is in your path (the list of directories where
 the shell looks when you ask it to run a program), and example/ is the current working directory, to fit the null model
-to the MMP20 alignments, do
+to the alignments, do
 
     HyPhy mmp20_null2-hsap.bf > mmp20_null2-hsap_out
 
@@ -96,7 +96,7 @@ understand. These notations relate as follows: *f*\_1 = `f0`, *zeta*\_1 = `zeta0
 Thanks
 ------
 
-We thank Sergei Kosakovsky-Pond (http://www.hyphy.org/w/index.php/Sergei\_L\_Kosakovsky\_Pond), the primary developer of
+We thank Sergei Kosakovsky-Pond (http://www.hyphy.org/w/index.php/Sergei_L_Kosakovsky_Pond), the primary developer of
 HyPhy, for his assistance in developing the mildly esoteric code in the HyPhy Batch Language files.
 
 
