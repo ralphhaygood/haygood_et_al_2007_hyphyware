@@ -97,7 +97,7 @@ Thanks
 ------
 
 We thank Sergei Kosakovsky-Pond (http://www.hyphy.org/w/index.php/Sergei_L_Kosakovsky_Pond), the primary developer of
-HyPhy, for his assistance in developing the mildly esoteric code in the HyPhy Batch Language files.
+HyPhy, for his advice toward crafting the mildly esoteric code in the HyPhy Batch Language files.
 
 
 Contact
